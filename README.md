@@ -1,6 +1,14 @@
 # Event-Scheduler-System-using-Python-3.x-REST-APIs-and-Flask
 
-This simple Flask application provides REST APIs to manage events. Users can add, view, update, delete events, and search for events by title.
+This Python application is a simple event scheduler that allows users to manage and organize events. Built with Python 3.x, REST APIs, and Flask, the application supports basic CRUD operations (Create, Read, Update, Delete) for events. The data is stored in an SQLite database.
+
+## Features:
+
+* **Event Creation:** Users can create events by providing a title, description, start time, and end time.
+* **Event Listing:** View all scheduled events in a sorted manner (earliest first).
+* **Event Updating:** Modify details of existing events, such as changing time, title, or description.
+* **Event Deletion:** Delete unwanted events.
+* **Persistence:** Events are saved to an SQLite database, ensuring data is retained between sessions.
 
 ## Prerequisites
 - Python 3.x
