@@ -25,16 +25,16 @@ This simple Flask application provides REST APIs to manage events. Users can add
 * Parameters: title, start time, end time
 
 **Get a Single Event**
-* Endpoint: /events/<int:id>
+* Endpoint: /events/'<'int:id'>'
 * Method: GET
 
 **Update an Event**
-* Endpoint: /events/<int:id>
+* Endpoint: /events/'<'int:id'>'
 * Method: PUT
 * Parameters: title, start time, end time
 
 **Delete an Event**
-* Endpoint: /events/<int:id>
+* Endpoint: /events/'<'int:id'>'
 * Method: DELETE
 
 Search for Events by Title
