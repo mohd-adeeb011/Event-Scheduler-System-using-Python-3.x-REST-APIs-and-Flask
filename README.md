@@ -4,9 +4,9 @@ This Python application is a simple event scheduler that allows users to manage 
 
 ## Features:
 
-* **Event Creation:** Users can create events by providing a title, description, start time, and end time.
+* **Event Creation:** Users can create events by providing a title, start time, and end time.
 * **Event Listing:** View all scheduled events in a sorted manner (earliest first).
-* **Event Updating:** Modify details of existing events, such as changing time, title, or description.
+* **Event Updating:** Modify details of existing events, such as changing time and title.
 * **Event Deletion:** Delete unwanted events.
 * **Persistence:** Events are saved to an SQLite database, ensuring data is retained between sessions.
 
