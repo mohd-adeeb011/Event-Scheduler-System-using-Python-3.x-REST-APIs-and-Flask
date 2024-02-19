@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "5d55d73d-693e-4d35-80e0-33fbcc9362b5",
+		"name": "Bitz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33038271"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Meet with Client",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "start time",
+							"value": "14:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end time",
+							"value": "15:00",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "AAPG Student Chapter",
+							"type": "text"
+						},
+						{
+							"key": "start time",
+							"value": "11:00",
+							"type": "text"
+						},
+						{
+							"key": "end time",
+							"value": "12:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/event/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Meet with Client",
+							"type": "text"
+						},
+						{
+							"key": "start time",
+							"value": "14:00",
+							"type": "text"
+						},
+						{
+							"key": "end time",
+							"value": "15:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/event/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"event",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/event/5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Meet with Client",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "start time",
+							"value": "14:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end time",
+							"value": "15:00",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/event/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"event",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/event/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Meet with Client",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "start time",
+							"value": "14:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end time",
+							"value": "15:00",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/event/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"event",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/search?title=webinar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Meet with Client",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "start time",
+							"value": "14:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end time",
+							"value": "15:00",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?title=webinar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "webinar"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
