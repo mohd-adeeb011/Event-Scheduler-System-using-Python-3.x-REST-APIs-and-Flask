@@ -5,7 +5,7 @@ This Python application is a simple event scheduler that allows users to manage 
 ## Features:
 
 * **Event Creation:** Users can create events by providing a title, start time, and end time.
-* **Event Listing:** View all scheduled events in a sorted manner (earliest first).
+* **Event Listing:** View all scheduled events.
 * **Event Updating:** Modify details of existing events, such as changing time and title.
 * **Event Deletion:** Delete unwanted events.
 * **Persistence:** Events are saved to an SQLite database, ensuring data is retained between sessions.
@@ -20,7 +20,8 @@ This Python application is a simple event scheduler that allows users to manage 
 2. Navigate to the project directory
 3. Create a virtual environment: 
 4. Install dependencies using '''pip install -r requirements.txt'''
-5. Run the Flask application: '''flask run'''
+5. Create Database and table by running the db.py file: '''python db.py'''
+6. Run the Flask application: '''flask run'''
 
 ## API Endpoints
 **Get All Events**
